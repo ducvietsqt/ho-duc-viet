@@ -1,0 +1,27 @@
+.center_box {
+    @apply flex gap-4;
+}
+.form {
+    max-width: 60vw;
+    @apply mx-auto my-20;
+    @apply space-y-4;
+}
+.button {
+    @apply inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-white bg-orange-500 hover:bg-orange-400 transition ease-in-out duration-150 cursor-not-allowed;
+}
+.button_center {
+    @apply w-fit mx-auto;
+}
+.title {
+    @apply text-center uppercase text-2xl font-black;
+}
+.spacey4 {
+    @apply space-y-4;
+}
+.fontBlack {
+    @apply font-black;
+}
+
+button[disabled] {
+    @apply opacity-40;
+}

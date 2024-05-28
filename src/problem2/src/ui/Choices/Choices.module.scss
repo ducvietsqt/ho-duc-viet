@@ -1,0 +1,34 @@
+$choice_w: 400px;
+
+.choice_box {
+  max-width: $choice_w;
+  @apply w-full;
+  @apply space-y-4;
+  
+}
+
+
+.item_choice {
+  @apply flex items-center;
+}
+.item_choice_icon {
+  @apply flex items-center;
+}
+.item_choice_label {
+  @apply text-left block;
+}
+.selected_item {
+  @apply flex items-center justify-center;
+}
+.temp_item {
+  @apply flex items-center gap-2;
+  @apply cursor-pointer;
+  @apply text-sm font-medium border border-black py-1 px-2 rounded  align-middle;
+}
+
+.temp_box {
+  @apply flex gap-2 flex-wrap;
+}
+.label_price {
+  @apply text-orange-500;
+}

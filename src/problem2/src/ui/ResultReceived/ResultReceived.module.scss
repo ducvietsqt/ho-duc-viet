@@ -1,0 +1,21 @@
+.container {
+    
+}
+.hidebox {
+    @apply opacity-0;
+}
+.showbox {
+    @apply opacity-100;
+}
+.center2 {
+    @apply flex items-center gap-2;
+}
+.center1 {
+    @apply flex w-fit items-center gap-1;
+}
+.fontbold {
+    @apply font-bold;
+}
+.fontblack {
+    @apply font-black;
+}
