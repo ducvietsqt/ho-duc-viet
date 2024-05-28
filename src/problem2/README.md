@@ -63,6 +63,10 @@ Build for production (specific environment):
 npm run build:prod
 npm run build:stag
 ```
+## Testing the Project
+```bash
+npm run test
+```
 ##  Eslint rules 
 Run linter:
 ```bash
